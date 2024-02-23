@@ -29,6 +29,8 @@ URL: postgres://waphgntt:***@silly.db.elephantsql.com/waphgntt
 
 **criando_tabelas.sql** - É um arquivo que contém um conjunto de queries que criam as tabelas para o Banco de Dados, deve ser executado de antemão aos arquivos gerados por "pop-bd.ipynb". Aqui existem alguns triggers também que adicionam dados às tabelas referente às datas de atualização e inserção de novos dados.
 
+**Dentro da pasta <<>> dados mockados:**
+
 **script_insert.sql** - É o arquivo de output de "pop-bd.ipynb" referente à tabela de usuários.
 
 **script_insert_agendamento.sql** -  o arquivo de output de "pop-bd.ipynb" referente à tabela de agendamentos.
