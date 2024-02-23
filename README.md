@@ -10,8 +10,7 @@
 
 ### Sobre a estrutura do Banco de Dados - Modelo Entidade-Relacionamento (MER) - Normalizado:
 
-![MER - Normalizado - Silver Friend](Banco-de-Dados-ADA-DE
-/modelo_banco_dados.png)
+![MER - Normalizado - Silver Friend](modelo_banco_dados.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Sobre os arquivos neste repositório:
