@@ -33,9 +33,9 @@
 
 **script_insert_servico.sql** -  o arquivo de output de "pop-bd.ipynb" referente à tabela de servicos.
 
-No projeto também há um enunciado de criação de 3 views principais para responder algumas perguntas sobre o modelo de negócios de Silver Friend:
-
 ------------------------------------------------------------------------------------------------------------
+
+No projeto também há um enunciado de criação de 3 views principais para responder algumas perguntas sobre o modelo de negócios de Silver Friend:
 
 As perguntas são:
 
