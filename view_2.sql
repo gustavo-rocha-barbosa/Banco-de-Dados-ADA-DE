@@ -16,3 +16,50 @@ WHERE
 	documento_aprovado = True
 ORDER BY
 	"Tempo de Cadastro (Meses)" DESC;
+	
+SELECT * FROM prestadores_tempo_cadastro
+
+-- Caso a execução de todos os programas for feita no mesmo dia da criação da view,
+-- teremos a coluna Tempo de Cadastro toda zerada, para corrigir isto, segue a query de update abaixo
+-- Com dados mais "antigos" para exitir uma diferença nas datas.
+
+-- Coloca uma data de cadastro mais antiga.
+UPDATE 
+	usuarios
+SET
+	data_cadastro = '2024-01-01 10:12:19.113167'
+WHERE
+	id = 0
+
+UPDATE 
+	usuarios
+SET
+	data_cadastro = '2023-10-01 10:12:19.113167'
+WHERE
+	id = 1
+	
+	
+UPDATE 
+	usuarios
+SET
+	data_cadastro = '2023-05-01 10:12:19.113167'
+WHERE
+	id = 2
+	
+
+UPDATE 
+	usuarios
+SET
+	data_cadastro = '2024-02-01 10:12:19.113167'
+WHERE
+	id = 3
+	
+	
+UPDATE 
+	usuarios
+SET
+	data_cadastro = '2023-12-01 10:12:19.113167'
+WHERE
+	id = 4
+
+

@@ -4,7 +4,15 @@
 
 ### *Mais detalhes acerca do modelo de negócio acesse o .pdf: Modelo de Negócio_ Plataforma de Serviços - SilverFriend*
 
-### O Banco de Dados se encontra no servidor do ElephantSQL
+### O Banco de Dados se encontra no servidor do ElephantSQL:
+
+Server: silly.db.elephantsql.com (silly-01)
+
+User & Default database: waphgntt
+
+Password: KMEpmisBznZtnXM-qVNVI9FW4QQVPJ49
+
+URL: postgres://waphgntt:***@silly.db.elephantsql.com/waphgntt
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
