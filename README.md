@@ -35,6 +35,8 @@
 
 No projeto também há um enunciado de criação de 3 views principais para responder algumas perguntas sobre o modelo de negócios de Silver Friend:
 
+------------------------------------------------------------------------------------------------------------
+
 As perguntas são:
 
 1) View para o usuário Idoso poder ver os agendamentos que vão ocorrer no futuro próximo, que estão com status agendado. - **Se encontra no arquivo: view_1.sql**
@@ -42,3 +44,5 @@ As perguntas são:
 2) View para o usuário Parente de Idoso poder ver os prestadores ranqueados por avaliação. - **Se encontra no arquivo: view_2.sql**
 
 3) View para o Prestador ver quantos atendimentos ele realizou com sucesso, e qual retorno isso gerou para ele. (essa informação do retorno, talvez não tenhamos, mas podemos criar apartir do custo). Quando criamos a columa custo ela é o preço que o idoso paga? Se for isso, podemos "abater" um fee de 30% por exemplo, e fazer o calculo da remuneração do prestado. - **Se encontra no arquivo: view_3.sql**
+
+### FIM.
