@@ -18,14 +18,20 @@ URL: postgres://waphgntt:***@silly.db.elephantsql.com/waphgntt
 
 ### Sobre a estrutura do Banco de Dados - Modelo Entidade-Relacionamento (MER) - Normalizado:
 
-![MER - Normalizado - Silver Friend](modelo_banco_dados.png)
+![MER - Normalizado - Silver Friend](descritivos e imagens/modelo_banco_dados.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Sobre os arquivos neste repositório:
 
+**Dentro da pasta <<>> descritivos e imagens:**
+
 **Descritivo_Projeto_Banco_Dados.pdf** - Aqui se encontram as informações a respeito da problemática da ADA da turma de Engenharia de Dado da Disciplina Banco de de Dados do ano de 2024.
 
+**Dentro da pasta <<>> scripts:**
+
 **pop-bd.ipynb** - É um arquivo em Pyhton que é capaz de fornecer os outputs de arquivos .sql para cada tabela existente no Banco de Dados apresentado, sendo assim, cada linha de código é capaz de popular o banco de dados Silver Friend com dados fictícios - Foi feita uma escolha de ter os outputs .sql para questões de permissões - Existe também uma possibilidade de popular o Banco de Dados via .csv neste código (apenas a tabela de usuários neste caso em .csv).
+
+**Dentro da pasta <<>> views e arquivos sql:**
 
 **criando_tabelas.sql** - É um arquivo que contém um conjunto de queries que criam as tabelas para o Banco de Dados, deve ser executado de antemão aos arquivos gerados por "pop-bd.ipynb". Aqui existem alguns triggers também que adicionam dados às tabelas referente às datas de atualização e inserção de novos dados.
 
@@ -49,10 +55,10 @@ No projeto também há um enunciado de criação de 3 views principais para resp
 
 As perguntas são:
 
-1) View para o usuário Idoso poder ver os agendamentos que vão ocorrer no futuro próximo, que estão com status agendado. - **Se encontra dentro da pasta: views, no arquivo: view_1.sql**
+1) View para o usuário Idoso poder ver os agendamentos que vão ocorrer no futuro próximo, que estão com status agendado. - **Se encontra dentro da pasta: views e arquivos sql, no arquivo: view_1.sql**
 
-2) View para o usuário Parente de Idoso poder ver os prestadores ranqueados por avaliação. - **Se encontra dentro da pasta: views, no arquivo: view_2.sql**
+2) View para o usuário Parente de Idoso poder ver os prestadores ranqueados por avaliação. - **Se encontra dentro da pasta: views e arquivos sql, no arquivo: view_2.sql**
 
-3) View para o Prestador ver quantos atendimentos ele realizou com sucesso, e qual retorno isso gerou para ele. (essa informação do retorno, talvez não tenhamos, mas podemos criar apartir do custo). Quando criamos a columa custo ela é o preço que o idoso paga? Se for isso, podemos "abater" um fee de 30% por exemplo, e fazer o calculo da remuneração do prestado. - **Se encontra dentro da pasta: views, no arquivo: view_3.sql**
+3) View para o Prestador ver quantos atendimentos ele realizou com sucesso, e qual retorno isso gerou para ele. (essa informação do retorno, talvez não tenhamos, mas podemos criar apartir do custo). Quando criamos a columa custo ela é o preço que o idoso paga? Se for isso, podemos "abater" um fee de 30% por exemplo, e fazer o calculo da remuneração do prestado. - **Se encontra dentro da pasta: views e arquivos sql, no arquivo: view_3.sql**
 
 ### FIM.
