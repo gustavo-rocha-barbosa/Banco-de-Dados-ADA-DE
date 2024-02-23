@@ -18,7 +18,7 @@ URL: postgres://waphgntt:***@silly.db.elephantsql.com/waphgntt
 
 ### Sobre a estrutura do Banco de Dados - Modelo Entidade-Relacionamento (MER) - Normalizado:
 
-![MER - Normalizado - Silver Friend](descritivos e imagens/modelo_banco_dados.png)
+![MER - Normalizado - Silver Friend](descritivos/modelo_banco_dados.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Sobre os arquivos neste repositório:
